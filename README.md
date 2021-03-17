@@ -1,34 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1  align="center"><img src="./public/logo-full.svg" /></h1>
 
-## Getting Started
+<p><img  alt="Version"  src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" /></p>
 
-First, run the development server:
+### 🏠 [Clique aqui e confira a aplicação Move.it !](https://moveit-rk9ld8flt-nagelricardo.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
+> 🚀 Move It é uma aplicação para gestão de tempo que estimula devs a praticar exercícios
+
+<p align="center">
+ <a href="#overview">Overview</a> •
+ <a href="#demonstracao">Demonstração</a> •
+ <a href="#comousar">Como usar</a> •
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#autora">Autor</a>
+</p>
+
+<h2 id="overview">✨ Overview</h2>
+
+<p>
+  A gestão de tempo é realizada através de um cronômetro que marca ciclos de 25 minutos de trabalho. Após finalizar cada ciclo um desafio é disponibilizado. Completando o desafio, o usuário receberá pontos que acumulados fazem o mesmo subir de nível.
+  
+  Os desafios se tratam de exercícios de alongamento para o corpo e olhos, além de lembretes para o dev hidratar-se consumindo água.
+
+  A aplicação foi desenvolvida durante a Next Level Week #4 promovida pela Rocketseat. 🚀 
+</p>
+
+<h2 id="demonstracao">🖱 Demonstração</h2>
+
+<p>
+  <span><img src="./public/screen1.PNG" /></span>
+  <span><img src="./public/screen2.PNG" /></span>
+</p>
+
+<h2 id="comousar">⚒️ Como usar</h2>
+
+<h3>Pré-requisitos</h3>
+
+<p>
+    Para iniciar o desenvolvimento é necessário primeiramente que você instale as seguintes ferramentas:
+    <ul>
+      <li><a href="https://nodejs.org/en/">Node.js</a></li>
+      <li><a href="https://yarnpkg.com/">Yarn</a></li>
+    </ul>
+
+    Recomendo para uma melhor experiência no desenvolvimento da aplicação Move.it utilizar o editor de código Visual Studio Code. 
+  <a href="https://code.visualstudio.com/">VSCode</a>
+</p>
+
+<h3>Instalação</h3>
+  <p>Abra o projeto no seu editor de código ou no terminal do seu computador e execute o comando abaixo.</p>
+
+  ```sh
+
+yarn install
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h3>Rodando a aplicação</h3>
+  <p>No terminal execute o comando abaixo.</p>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+yarn dev
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
 
-## Learn More
+<p>A aplicação será aberta na porta:3000. No seu navegador acesse http://localhost:3000</p>
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2 id="tecnologias">🛸 Tecnologias</h2>
+  
+  <p>
+    As seguintes ferramentas foram utilizadas no desenvolvimento dessa aplicação:
+    <ul>
+      <li><a href="https://nodejs.org/en/">Node.js</a></li>
+      <li><a href="https://pt-br.reactjs.org/">React.js</a></li>
+      <li><a href="https://nextjs.org/">Next.js</a></li>
+      <li><a href="https://www.typescriptlang.org/">TypeScript</a></li>
+    </ul>
+  </p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  <h2 id="autora">👤 Autor</h2>
 
-## Deploy on Vercel
+<h3>Desenvolvido por Ricardo Nagel com auxílio da Rocketseat 🚀 </h3>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* [Linkedin](https://www.linkedin.com/in/ricardonagel/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  
+<strong align="center">Deixe sua ⭐️ se gostou do projeto</strong>
+
+  
